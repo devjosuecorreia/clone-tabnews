@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "vercel-build": "vercel build"
+    "vercel-build": "npx vercel build"
   },
   "author": "Josué Correia",
   "license": "MIT",
@@ -13,5 +13,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vercel": "^34.2.0"
   }
 }
